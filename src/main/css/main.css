@@ -1,0 +1,77 @@
+html {
+    background-color: lightgrey;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+#requestForm {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    height: 60px;
+}
+
+.tile {
+    width: 100%;
+    min-height: 70px;
+    line-height: 70px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #ff8b24;
+    border-right-color: #cc731a;
+    border-bottom-color: #cc731a;
+}
+
+#stylingDiv {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#respContainer {
+    margin: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.response {
+    text-align: center;
+    background-color: #fcc890;
+    padding: 10px;
+    border: solid 3px rgba(255, 120, 35, 0.86);
+    border-radius: 10px;
+    animation: slide-up 5s ease;
+
+}
+
+#sendBut {
+    background-color: slategray;
+    min-height: 100%;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
