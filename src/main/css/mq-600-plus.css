@@ -1,0 +1,23 @@
+/*div {*/
+    /*width: 50%;*/
+/*}*/
+
+#d7 {
+    order: 1;
+    width: 100%;
+}
+
+#d1, #d2, #d3 {
+    order: 2;
+    width: 33.33%;
+}
+
+#d4, #d6 {
+    order: 3;
+    width: 50%;
+}
+
+#d5 {
+    order: 4;
+    width: 100%;
+}
